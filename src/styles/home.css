@@ -1,0 +1,22 @@
+.jewellaryTxt {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    color: white;
+}
+
+.btn-signIn {
+    background-color: #FF8A00 !important;
+}
+
+
+
+.jewelleryRectangle {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    border: 1px;
+    
+
+}
+
