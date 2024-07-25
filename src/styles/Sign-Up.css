@@ -1,7 +1,25 @@
-.signUpText{
+.signUpText {
     position: absolute;
     top: 50%;
     color: white;
     left: 30px;
 }
 
+
+
+.venderButton {
+    height: 51px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+
+.staffButton {
+    height: 51px;
+    border-radius: 5px 0px 0px 0px;
+}
+
+.customerButton {
+    width: auto;
+    height: 51px;
+    border-radius: 5px 0px 0px 0px;
+}

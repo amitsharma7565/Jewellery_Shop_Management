@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/home.css';
 import { useNavigate } from "react-router-dom";
+import JeweleryBg from "./JeweleryBg";
 // import SignUp from "./SignUp";
 
 function Home() {
@@ -9,9 +10,15 @@ function Home() {
         navigate("/SignUp");
     }
     return (
-        <div className="home">
-            <img src="/images/background.png" alt="bg_img" className="mphoto" />
-            <img src="/images/Jewellery.png" alt="j_img" className="jewelleryRectangle" />
+        <div>
+            <img src="/images/background.png" alt="bg_img" style={{
+                height: '100vh',
+                width: '100%',
+                backgroundPosition: "center center",
+                backgroundRepeat: "no-repeat",
+                objectFit: "cover"
+            }} />
+            <JeweleryBg/>
             <div className="jewellaryTxt">
                 <h1 className="fw-bold">Jewellery</h1>
                 <h2>Shop Management System</h2>
